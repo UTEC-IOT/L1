@@ -1,4 +1,6 @@
 const int pinAnalog = A0;
+const int bits = 4;
+const int maxNum = pow(2, bits)-1;
 
 void setup() {
   Serial.begin(9600);
@@ -12,7 +14,8 @@ void setup() {
 
 void loop() {
   int lectura = analogRead(pinAnalog);
-  int valorDigital = map(lectura, 0, 1023, 0, 15);
+  int valorDigital = map(lectura, 0, 1023, 0, maxNum);
+  float amplitud = (valorDigital*5.0)/maxNum;
   
   // vincular el pin con el bit
   digitalWrite(2, bitRead(valorDigital, 0));
@@ -20,7 +23,9 @@ void loop() {
   digitalWrite(4, bitRead(valorDigital, 2));
   digitalWrite(5, bitRead(valorDigital, 3));
   
-  Serial.print("Valor digital = ");
-  Serial.println(valorDigital);
+  Serial.print("valor digital = ");
+  Serial.print(valorDigital);
+  Serial.print(", amplitud = ");
+  Serial.println(amplitud);
   delay(100);
 }
