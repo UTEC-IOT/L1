@@ -14,14 +14,22 @@
 
 <item itemtype="Led" CircId="Led-28" mainComp="false" Show_id="false" Show_Val="false" Pos="764,696" rotation="-180" hflip="1" vflip="1" label="Led-28" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Green" Grounded="true" Threshold="2.4 V" MaxCurrent="0.05 A" Resistance="0.6 Ω" />
 
-<item itemtype="Connector" uid="connector-29" startpinid="Led-14-lPin" endpinid="Mega-1-8" pointList="780,604,820,604,820,612" />
+<item itemtype="Switch" CircId="Switch-34" mainComp="false" Show_id="false" Show_Val="false" Pos="760,556" rotation="0" hflip="1" vflip="1" label="Switch-34" idLabPos="-12,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" DT="false" Poles="1 _Poles" />
 
-<item itemtype="Connector" uid="connector-30" startpinid="Led-16-lPin" endpinid="Mega-1-9" pointList="780,624,780,620,820,620" />
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-38" mainComp="false" Show_id="false" Show_Val="false" Pos="712,556" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-38" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Voltage="5 V" />
 
-<item itemtype="Connector" uid="connector-31" startpinid="Led-17-lPin" endpinid="Mega-1-10" pointList="780,644,792,644,792,628,820,628" />
+<item itemtype="Connector" uid="connector-39" startpinid="Led-14-lPin" endpinid="Mega-1-8" pointList="780,604,820,604,820,612" />
 
-<item itemtype="Connector" uid="connector-32" startpinid="Led-26-lPin" endpinid="Mega-1-12" pointList="780,676,800,676,800,644,820,644" />
+<item itemtype="Connector" uid="connector-40" startpinid="Led-16-lPin" endpinid="Mega-1-9" pointList="780,624,780,620,820,620" />
 
-<item itemtype="Connector" uid="connector-33" startpinid="Led-28-lPin" endpinid="Mega-1-13" pointList="780,696,808,696,808,652,820,652" />
+<item itemtype="Connector" uid="connector-41" startpinid="Led-17-lPin" endpinid="Mega-1-10" pointList="780,644,792,644,792,628,820,628" />
+
+<item itemtype="Connector" uid="connector-42" startpinid="Led-26-lPin" endpinid="Mega-1-12" pointList="780,676,800,676,800,644,820,644" />
+
+<item itemtype="Connector" uid="connector-43" startpinid="Led-28-lPin" endpinid="Mega-1-13" pointList="780,696,808,696,808,652,820,652" />
+
+<item itemtype="Connector" uid="connector-44" startpinid="Switch-34-switch0pinN" endpinid="Mega-1-2" pointList="776,556,820,556" />
+
+<item itemtype="Connector" uid="connector-45" startpinid="Fixed Voltage-38-outnod" endpinid="Switch-34-pinP0" pointList="728,556,744,556" />
 
 </circuit>
