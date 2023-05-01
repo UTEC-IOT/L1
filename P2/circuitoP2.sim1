@@ -10,7 +10,7 @@
 
 <item itemtype="WaveGen" CircId="WaveGen-148" mainComp="false" Show_id="false" Show_Val="false" Pos="1044,544" rotation="-180" hflip="1" vflip="1" label="WaveGen-148" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Wave_Type="Sine" Freq="10 Hz" Steps="100 _Steps" Duty="50 _%" Always_On="false" Semi_Ampli="2.5 V" Mid_Volt="2.5 V" />
 
-<item itemtype="Probe" CircId="Probe-154" mainComp="false" Show_id="false" Show_Val="true" Pos="780,496" rotation="-135" hflip="1" vflip="1" label="Probe-154" idLabPos="16,-16" labelrot="45" valLabPos="22.7419,11.2364" valLabRot="135" ShowVolt="true" Threshold="2.5 V" />
+<item itemtype="Probe" CircId="Probe-154" mainComp="false" Show_id="false" Show_Val="true" Pos="780,496" rotation="-135" hflip="1" vflip="1" label="Probe-154" idLabPos="16,-16" labelrot="45" valLabPos="22,11" valLabRot="135" ShowVolt="true" Threshold="2.5 V" />
 
 <item itemtype="Probe" CircId="Probe-156" mainComp="false" Show_id="false" Show_Val="true" Pos="756,504" rotation="-135" hflip="1" vflip="1" label="Probe-156" idLabPos="16,-16" labelrot="45" valLabPos="22,11" valLabRot="135" ShowVolt="true" Threshold="2.5 V" />
 
@@ -18,16 +18,16 @@
 
 <item itemtype="Probe" CircId="Probe-160" mainComp="false" Show_id="false" Show_Val="true" Pos="708,520" rotation="-135" hflip="1" vflip="1" label="Probe-160" idLabPos="16,-16" labelrot="45" valLabPos="22,11" valLabRot="135" ShowVolt="true" Threshold="2.5 V" />
 
-<item itemtype="Battery" CircId="Battery-191" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="996,524" rotation="-180" hflip="1" vflip="1" label="Battery-191" idLabPos="-18,-22" labelrot="0" valLabPos="9.7545,25.8036" valLabRot="-180" Voltage="2.5 V" Resistance="0.001 Ω" />
+<item itemtype="Battery" CircId="Battery-191" mainComp="false" ShowProp="Voltage" Show_id="false" Show_Val="true" Pos="996,524" rotation="-180" hflip="1" vflip="1" label="Battery-191" idLabPos="-18,-22" labelrot="0" valLabPos="9,25" valLabRot="-180" Voltage="2.5 V" Resistance="1e-14 Ω" />
 
-<item itemtype="Connector" uid="Connector-155" startpinid="Probe-154-inpin" endpinid="Mega-1-2" pointList="796,512,812,512" />
+<item itemtype="Connector" uid="connector-192" startpinid="Probe-154-inpin" endpinid="Mega-1-2" pointList="796,512,812,512" />
 
-<item itemtype="Connector" uid="Connector-157" startpinid="Probe-156-inpin" endpinid="Mega-1-3" pointList="772,520,812,520" />
+<item itemtype="Connector" uid="connector-193" startpinid="Probe-156-inpin" endpinid="Mega-1-3" pointList="772,520,812,520" />
 
-<item itemtype="Connector" uid="Connector-159" startpinid="Probe-158-inpin" endpinid="Mega-1-4" pointList="748,528,812,528" />
+<item itemtype="Connector" uid="connector-194" startpinid="Probe-158-inpin" endpinid="Mega-1-4" pointList="748,528,812,528" />
 
-<item itemtype="Connector" uid="Connector-161" startpinid="Probe-160-inpin" endpinid="Mega-1-5" pointList="724,536,812,536" />
+<item itemtype="Connector" uid="connector-195" startpinid="Probe-160-inpin" endpinid="Mega-1-5" pointList="724,536,812,536" />
 
-<item itemtype="Connector" uid="Connector-190" startpinid="WaveGen-148-outnod" endpinid="Mega-1-A0" pointList="1028,544,956,544" />
+<item itemtype="Connector" uid="connector-196" startpinid="WaveGen-148-outnod" endpinid="Mega-1-A0" pointList="1028,544,956,544" />
 
 </circuit>

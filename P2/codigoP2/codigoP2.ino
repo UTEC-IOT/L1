@@ -20,6 +20,7 @@ void loop() {
   digitalWrite(4, bitRead(valorDigital, 2));
   digitalWrite(5, bitRead(valorDigital, 3));
   
+  Serial.print("Valor digital = ");
   Serial.println(valorDigital);
   delay(100);
 }
